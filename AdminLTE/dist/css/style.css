@@ -1,0 +1,32 @@
+.Description {
+	color: #272727;
+	max-height: 65px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.small_img ul { 
+	padding: 0;
+}
+.small_img ul li{
+	display: inline-block;
+	position: relative;
+	margin-right: 15px;
+}
+.small_img ul li span.fa {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	position: absolute;
+	top: -8px;
+	right: -7px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+}
